@@ -43,6 +43,17 @@ const createStructure = () => {
       })
     })
 
+  ensureDir(path.join(start, "views"))
+    .then(() => {
+      console.log("views dir created")
+    })
+    .then(() => {
+      // create index file
+      ensureFile(path.join(start, "views", "index.js")).then(() => {
+        console.log("views/index.js created")
+      })
+    })
+
   ensureFile(path.join(start, "store.js")).then(() => {
     console.log("store.js created")
   })
