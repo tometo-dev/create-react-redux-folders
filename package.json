@@ -1,0 +1,24 @@
+{
+  "name": "redux-folder-structure",
+  "version": "1.0.0",
+  "description": "Creates folder structure for react-redux projects",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "author": "Sudhanshu Ranjan",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "prepare": "tsc"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/fs-extra": "^8.1.0",
+    "@types/node": "^13.7.7",
+    "fs-extra": "^8.1.0",
+    "nodemon": "^2.0.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
+  }
+}
