@@ -1,6 +1,6 @@
 {
   "name": "create-react-redux-folders",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Creates folder structure for react-redux projects",
   "main": "dist/index.js",
   "bin": "dist/index.js",
