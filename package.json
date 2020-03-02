@@ -1,6 +1,6 @@
 {
-  "name": "react-redux-folder-structure",
-  "version": "0.1.0",
+  "name": "create-react-redux-folders",
+  "version": "0.0.3",
   "description": "Creates folder structure for react-redux projects",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "watch": "tsc -w",
-    "prepare": "tsc"
+    "prepare": "tsc",
+    "start": "nodemon dist/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
@@ -16,9 +17,11 @@
     "@babel/preset-typescript": "^7.8.3",
     "@types/fs-extra": "^8.1.0",
     "@types/node": "^13.7.7",
-    "fs-extra": "^8.1.0",
     "nodemon": "^2.0.2",
     "tslint": "^6.0.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
   }
 }

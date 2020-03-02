@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { ensureDir, ensureFile } from "fs-extra"
 import path from "path"
 
