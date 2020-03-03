@@ -1,6 +1,6 @@
 {
   "name": "create-react-redux-folders",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Creates folder structure for react-redux projects",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -23,5 +23,19 @@
   },
   "dependencies": {
     "fs-extra": "^8.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuki42/create-react-redux-folders.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsuki42/create-react-redux-folders/issues"
+  },
+  "homepage": "https://github.com/tsuki42/create-react-redux-folders#readme",
+  "keywords": [
+    "react",
+    "redux",
+    "react-redux",
+    "structure react-redux projects"
+  ]
 }
